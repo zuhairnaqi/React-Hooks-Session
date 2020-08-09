@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Counter from './Components/Counter';
+import Counter1 from './Components/Counter1';
+import Counter2 from './Components/Counter2';
 
 function App() {
 
@@ -9,7 +10,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>React Hooks</h1>
-        <Counter />
+        <Counter1 />
+        <Counter2 />
       </header>
     </div>
   );

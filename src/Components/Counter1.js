@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import useDocumentTitle from '../Hooks/useDocumentTitle';
 
-function Counter() {
+function Counter1() {
     const [count, setCount] = useState(0);
     useDocumentTitle(count);
     return (
@@ -13,4 +13,4 @@ function Counter() {
     )
 }
 
-export default Counter;
+export default Counter1;
